@@ -1,4 +1,11 @@
 [root]
 name = "rust-example"
 version = "0.1.0"
+dependencies = [
+ "rary 0.1.0",
+]
+
+[[package]]
+name = "rary"
+version = "0.1.0"
 

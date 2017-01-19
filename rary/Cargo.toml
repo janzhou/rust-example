@@ -1,0 +1,12 @@
+[package]
+name = "rary"
+version = "0.1.0"
+authors = ["Jian Zhou <i@janzhou.org>"]
+
+[lib]
+name = "rary"
+path = "lib.rs"
+
+[features]
+english = []
+chinese = []
