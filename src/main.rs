@@ -10,14 +10,18 @@ use thread_example::*;
 mod borrow;
 use borrow::*;
 
-mod dot;
-use dot::*;
+mod vector;
+use vector::*;
 
 fn main() {
     println!("{}", hello());
 
     println!("dot product: {}", dot_product(vec![1], vec![2]));
-    dot();
+
+    let a = Vector::new(vec![1]);
+    let b = Vector::new(vec![2]);
+    println!("dot product: {}", a * b);
+
     mod_example();
     borrow();
     thread_example();
