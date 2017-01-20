@@ -5,3 +5,4 @@ authors = ["Jian Zhou <i@janzhou.org>"]
 
 [dependencies]
 rary = { path = "rary", features = ["english"] }
+rulinalg="0.4.1"
